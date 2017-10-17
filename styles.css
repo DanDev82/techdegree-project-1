@@ -86,16 +86,16 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #424242;
+  color: #efefef;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #efefef;
+  color: #424242;
 }
 .card {
   margin: 30px;
@@ -124,6 +124,23 @@ header .profile-image:hover {
 }
 .card-2:hover {
   border-color: #ff99ff;
+}
+
+#badges{
+  margin-left: 2em;
+}
+
+#html,
+#css,
+#js{
+  max-width: 110px;
+  padding:0 10px;
+}
+
+#bg-section-img{
+  border-radius: 6px;
+  max-width: 250px;
+  margin-left: 80px;
 }
 
 .active{
